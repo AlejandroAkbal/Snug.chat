@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Snug.chat</title>
+
+    <!-- Defaults -->
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#181A1B">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="lib/tailwind.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+</head>
+
+<!-- Body starts -->
+
+<body class="bg-dark-600">
+
+    <!-- Navigation bar starts here -->
+    <!-- DELETE FIXED HEIGHT -->
+    <!-- DELETE FIXED HEIGHT -->
+    <!-- DELETE FIXED HEIGHT -->
+    <nav id="navbar" class="ul:w-10 lg:w-1/6 md:w-1/4 sm:w-2/6 w-2/4 min-h-screen px-3 shadow-xl fixed bg-orchid-500">
+
+        <!-- User info here -->
+        <div class="pt-5 border-b border-dark-500">
+            <button class="float-right font-bold">&#9965;</button>
+            <a class="font-bold text-lg">User</a>
+
+
+        </div>
+
+        <!-- Channels Section -->
+        <div id="channels" class="my-10">
+            <!-- Title -->
+            <a>
+                <div class="border-b border-orchid-900">
+                    <button class="float-right font-bold">&plus;</button>
+                    <h4>Channels</h4>
+                </div>
+            </a>
+
+            <!-- Elements -->
+            <a>
+                <div>testing</div>
+            </a>
+            <a>
+                <div>web-dev</div>
+            </a>
+
+        </div>
+
+        <!-- Messages Section -->
+        <div id="messages">
+            <!-- Title -->
+            <a>
+                <div class="border-b border-orchid-900">
+                    <button class="float-right font-bold">&plus;</button>
+                    <h4>Direct Messages</h4>
+                </div>
+            </a>
+
+            <!-- Elements -->
+            <a>
+                <div>Snugbot</div>
+            </a>
+            <a>
+                <div>Izzy</div>
+            </a>
+
+        </div>
+
+        <!-- Close button -->
+        <div class="absolute pin-x pin-b">
+            <a class="font-bold">&lt;</a>
+        </div>
+
+    </nav>
+
+    <!-- Real content of the website starts here  -->
+    <main id="content" class="ul:ml-10p lg:ml-1/6 md:ml-1/4 sm:ml-2/6 ml-2/4 transition-margin">
+
+        <!-- DELETE FIXED HEIGHT -->
+        <!-- DELETE FIXED HEIGHT -->
+        <!-- DELETE FIXED HEIGHT -->
+        <section id="chatTitle"
+            class="contentWidth ul:w-90 lg:w-5/6 md:w-3/4 sm:w-5/6 w-2/4 fixed bg-orchid-700 p-2 border-l border-b border-orchid-900 max-h-4 transition-width overflow-hidden">
+
+            <!-- Left content -->
+            <div class="float-left">
+                <!-- Chat title -->
+                <p class="font-bold" onclick="toggleNav()">#testing</p>
+                <!-- Save chat -->
+                <button class="border-r border-orchid-900">*&nbsp;</button>
+                <!-- Chat current users -->
+                <button class="border-r border-orchid-900">1&nbsp;</button>
+                <!-- Pinned messages -->
+                <button>0&nbsp;</button>
+
+            </div>
+
+            <!-- Left content -->
+            <div class="leading-loose float-right mt-2">
+                <!-- Call icon -->
+                <button>#&nbsp;</button>
+                <!-- Info icon -->
+                <button>#&nbsp;</button>
+                <!-- Settings icon -->
+                <button>#&nbsp;</button>
+                <!-- Search -->
+                <span class="relative">
+                    <button class="absolute px-2 py-0">&#43;</button>
+                    <input class="pl-6 bg-orchid-800 border border-orchid-900" placeholder="Search">
+                </span>
+                <!-- @ icon -->
+                <button>&nbsp#&nbsp;</button>
+                <!-- Save chat -->
+                <button>*&nbsp;</button>
+                <!-- Info icon -->
+                <button>#&nbsp;</button>
+                <!-- Options icon -->
+                <button>#&nbsp;</button>
+
+            </div>
+
+
+        </section>
+
+        <!-- DELETE FIXED MARGIN -->
+        <!-- DELETE FIXED MARGIN -->
+        <!-- DELETE FIXED MARGIN -->
+        <section id="chat" class="">
+
+            <!-- Message input -->
+            <div class="contentWidth ul:w-90 lg:w-5/6 md:w-3/4 sm:w-5/6 w-2/4 absolute bottom pb-5 transition-width">
+                <div class="ml-5 mr-10 relative bg-orchid-900">
+                    <button class="absolute p-1 py-0">&#43;</button>
+                    <input class="w-full ml-5 pl-2 bg-orchid-500" placeholder="Send a message">
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Add scripts here  -->
+    <script src="lib/jquery.min.js" defer></script>
+    <script src="js/navbar.js" defer></script>
+
+</body>
+
+</html>
