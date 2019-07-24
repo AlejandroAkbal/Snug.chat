@@ -5,6 +5,6 @@ Proyecto abandonado para snug.chat
 
 > Con este proyecto me inicie en Tailwind CSS y el ecosistema NPM.
 
-##### Puedes probar lo que llegue a hacer desde el siguiente link https://voidlessseven7.github.io/proyecto-2/
+##### Puedes probar lo que llegue a hacer desde el siguiente link https://voidlessseven7.github.io/Snug.chat-Web/
 
 ###### Si haces click en #testing escondes y haces aparecer el menu de navegacion lateral.
