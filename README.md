@@ -1,10 +1,13 @@
-# Proyecto 2
-Proyecto abandonado para snug.chat
+# Snug.chat
+Abandoned project for Snug.chat
 
-**Originalmente iba a ser un chat basado en irc en el que la comunidad hacia funcionar la plataforma, yo tenia que dedicarme a hacer el Front end.**
+**Originally it was going to be an IRC based chat where the community made the platform work, with nodes.**
 
-> Con este proyecto me inicie en Tailwind CSS y el ecosistema NPM.
+I was tasked to do the front end.
 
-##### Puedes probar lo que llegue a hacer desde el siguiente link https://voidlessseven7.github.io/Snug.chat-Web/
+> With this project I got started on Tailwind CSS and the NPM ecosystem.
 
-###### Si haces click en #testing escondes y haces aparecer el menu de navegacion lateral.
+##### You can see what little I accomplished (before the project was abandoned) in the following link.
+[Snug.chat](https://voidlessseven7.github.io/Snug.chat/)
+
+###### Clicking #testing toggled the side navigation menu.
